@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+
 body {
   font-family: Arial;
   background-image: url("https://i.pinimg.com/originals/12/0e/03/120e03442dc1d98f8a72407cddf53d5d.gif");
@@ -8,7 +10,9 @@ h3 {
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
-  font-size: 1.25rem;
+  font-size: 2rem;
+  font-family: 'Kavoon', cursive;
+  font-weight: bold;
 }
 
 .btn {
@@ -114,6 +118,7 @@ main {
   letter-spacing: 2px;
   border-radius: 2rem;
   cursor: pointer;
+  font-family: arial;
 }
 
 .submit-btn:hover {
