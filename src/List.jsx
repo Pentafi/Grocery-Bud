@@ -19,7 +19,7 @@ const List = ({ items, removeItem, editItem }) => {
               </button>
               <button
                 type='button'
-                className='delete-btn'
+                className='remove-btn'
                 onClick={() => removeItem(id)}
               >
                 <FaTrash />
