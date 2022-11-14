@@ -48,11 +48,11 @@ function App() {
     setAlert({ show, type, msg });
   };
   const clearList = () => {
-    showAlert(true, 'empty', 'empty list');
+    showAlert(true, 'clear', 'empty list');
     setList([]);
   };
-  const removeItem = (id) => {
-    showAlert(true, 'empty', name + ' item removed');
+  const removeItem = (id, title) => {
+    showAlert(true, 'remove', `${title} item removed`);
     setList(list.filter((item) => item.id !== id));
   };
   const editItem = (id) => {

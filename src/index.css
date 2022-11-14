@@ -80,6 +80,16 @@ main {
   background: #f8d7da;
 }
 
+.alert-clear {
+  color: red;
+  background: #f8d7da;
+}
+
+.alert-remove {
+  color: red;
+  background: #f8d7da;
+}
+
 .alert-success {
   color: green;
   background: #d4edda;
